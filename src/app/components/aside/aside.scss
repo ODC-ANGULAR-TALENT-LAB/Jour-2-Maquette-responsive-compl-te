@@ -1,0 +1,14 @@
+aside {
+    flex: 2;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    Color: white;
+}
+@media (max-width: 600px) { 
+  .aside__container { 
+    font-size: 1.5rem; 
+  }
+}

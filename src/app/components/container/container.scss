@@ -1,0 +1,31 @@
+.container {
+  height: calc(100vh - 200px);
+}
+@media (max-width: 900px) { 
+.content { 
+flex-direction: column-reverse; 
+} 
+} 
+.content {
+  display: flex;
+  height: 100%;
+  font-size: 2rem;
+
+
+  app-main {
+    flex: 2;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  app-aside {
+    flex: 1;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
